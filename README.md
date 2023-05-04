@@ -69,12 +69,12 @@ extracted.
 --------------------------------------------------------------------------------
 
 You can find some videos of the framework in action here.
- - dsfileinformation.py module
- - dstimeline.py module
- - dsdeletedobjects.py module
- - dsusers.py module
- - dsgroups.py module
- - dscomputers.py module
+ - [dsfileinformation.py module](https://github.com/danzek/ntdsxtract/raw/master/resources/dsfileinformation.mov)
+ - [dstimeline.py module](https://github.com/danzek/ntdsxtract/raw/master/resources/dstimeline.mov)
+ - [dsdeletedobjects.py module](https://github.com/danzek/ntdsxtract/raw/master/resources/dsdeletedobjects.mov)
+ - [dsusers.py module](https://github.com/danzek/ntdsxtract/raw/master/resources/dsusers.mov)
+ - [dsgroups.py module](https://github.com/danzek/ntdsxtract/raw/master/resources/dsgroups.mov)
+ - [dscomputers.py module](https://github.com/danzek/ntdsxtract/raw/master/resources/dscomputers.mov)
 
 --------------------------------------------------------------------------------
  * Requirements
@@ -85,11 +85,11 @@ installed. The moudles extracts information from the output of the tool
 esedbextract which is included in this library. The code of the library can
 be downloaded from:
 
-  http://sourceforge.net/projects/libesedb/
+  http://sourceforge.net/projects/libesedb/ (now available at [https://github.com/libyal/libesedb](https://github.com/libyal/libesedb))
 
 Some part of the framework is based on the excellent framework called creddump.
 You can download the lates version of creddump from
 
-  http://code.google.com/p/creddump/
+  http://code.google.com/p/creddump/ ([forked on GitHub](https://github.com/danzek/creddump))
 
 ```
