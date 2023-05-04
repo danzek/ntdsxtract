@@ -1,9 +1,13 @@
 ntdsxtract
 ==========
 
-NTDSXtract - A framework for offline forensic analysis of NTDS.DIT
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
-Active Directory forensic framework
+**NTDSXtract** - A framework for offline forensic analysis of NTDS.DIT
+
+*Active Directory forensic framework*
+
+This is a legacy project that **must be ran in Python 2** (v3 not supported).
 
 ## Description
 
