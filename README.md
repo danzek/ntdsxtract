@@ -47,21 +47,21 @@ Currently the following modules are included in the framework:
 ## Usage 
 
 In order to utilise the framework you should compile and install the libesedb
-library (see below). After that you should run the esedbextract tool against the
+library (see below). After that you should run the `esedbexport` tool against the
 NTDS.DIT file and export all the tables. You can do that with the following
 command:
 
     esedbexport ntds.dit
 
-This command creates a folder in the current directory called ntds.dit.extract.
-Inside that folder you will find the tables. You should use these tables as an
-input to the modules.
+This command creates a folder in the current directory called `ntds.dit.extract`.
+Inside that folder you will find the tables. **You should use these tables as an
+input to the modules.**
 
 In order to extract password hashes and other encrypted data you should obtain
 the registry from the same domain controller from which the file NTDS.DIT was
 extracted.
 
-**The ntdsxtract tools are then run *on the `esedbexport` output* (*not* on the original NTDS.dit file!).**
+**The ntdsxtract tools are run *on the `esedbexport` output* (*not* on the original NTDS.dit file!).**
 
 ## Videos
 
@@ -76,8 +76,8 @@ You can find some videos of the framework in action here.
 ## Requirements
 
 In order to use the framework the excellent library called libesedb must be
-installed. The moudles extracts information from the output of the tool
-esedbextract which is included in this library. The code of the library can
+installed. The modules extract information from the output of the tool
+`esedbextract` which is included in this library. The code of the library can
 be downloaded from [https://github.com/libyal/libesedb](https://github.com/libyal/libesedb)
 
 Some part of the framework is based on the excellent framework called creddump.
