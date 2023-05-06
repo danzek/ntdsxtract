@@ -77,11 +77,16 @@ You can find some videos of the framework in action here.
 
 In order to use the framework the excellent library called libesedb must be
 installed. The modules extract information from the output of the tool
-`esedbextract` which is included in this library. The code of the library can
+`esedbexport` which is included in this library. The code of the library can
 be downloaded from [https://github.com/libyal/libesedb](https://github.com/libyal/libesedb)
 
 Some part of the framework is based on the excellent framework called creddump.
 You can download the latest version of creddump from [this fork on GitHub](https://github.com/danzek/creddump)
+
+The creddump parent folder (named "creddump") can be copied and pasted into the ntdsxtract folder to 
+get it to be recognized as a module. The creddump framework requires pycrypto as a dependency. In python 2:
+
+    pip install pycrypto
 
 
 ## Original README from ntdsxtract.com
